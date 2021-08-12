@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WeRescue</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_circle_members_map">Map</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">log in</string>
+    <string name="dontaccount">"Don't have an account? "</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="invitationcode">"Enter Invite code. if you want to join another circle"</string>
+    <string name="join">join</string>
+    <string name="dialog_title">Exit</string>
+    <string name="dialog_message">Do you want to close this application</string>
+    <string name="splashintro">"A disaster relief operation that provides emergency services like food, clothes, medicines, etc… through tracking your location and information."</string>
+    <string name="hide_code">- - - - - -</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="profile_email">Email Address</string>
+</resources>
