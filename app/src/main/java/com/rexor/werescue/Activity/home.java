@@ -268,7 +268,7 @@ public class home extends AppCompatActivity implements OnMapReadyCallback, Navig
                     startActivity(new Intent(home.this, login_screen.class).setFlags(
                             Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK
                     ));
-                    finish();
+                    this.finish();
                 }
                 break;
         }

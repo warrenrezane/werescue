@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -14,6 +15,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.rexor.werescue.ProgressbarLoader;
 import com.rexor.werescue.R;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -22,11 +28,15 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import java.util.ArrayList;
+import java.util.Map;
+
 public class login_screen extends AppCompatActivity {
 
-    EditText logemail, logpass;
+    EditText logphone;
     Button loginbtn;
     TextView txtsign, slide_logtxt;
+    DatabaseReference databaseReference;
     FirebaseAuth firebaseAuth;
     ProgressbarLoader loader;
     FirebaseUser firebaseUser;
@@ -37,8 +47,7 @@ public class login_screen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_screen);
 
-        logemail = findViewById(R.id.edittext_email);
-        logpass = findViewById(R.id.edittext_password);
+        logphone = findViewById(R.id.edittext_phonenumber);
         loginbtn = findViewById(R.id.login_button);
         txtsign = findViewById(R.id.logtosign);
         slide_logtxt = findViewById(R.id.slide_login_text);
@@ -49,6 +58,7 @@ public class login_screen extends AppCompatActivity {
         slide_logtxt.setAnimation(animation);
 
         firebaseAuth = FirebaseAuth.getInstance();
+        databaseReference = FirebaseDatabase.getInstance().getReference("users");
         firebaseUser = firebaseAuth.getCurrentUser();
 
         //initilize progressbar
@@ -77,28 +87,53 @@ public class login_screen extends AppCompatActivity {
     }
 
     private void loginlistner() {
-
-        String email = logemail.getText().toString().trim();
-        String password = logpass.getText().toString().trim();
-        if (TextUtils.isEmpty(email) || TextUtils.isEmpty(password)) {
-            Toast.makeText(login_screen.this, "fill all fields", Toast.LENGTH_SHORT).show();
+        String phonenumber = logphone.getText().toString().trim();
+        if (TextUtils.isEmpty(phonenumber)) {
+            Toast.makeText(login_screen.this, "Phone number cannot be empty.", Toast.LENGTH_SHORT).show();
             loader.dismissloader();
         } else {
-            firebaseAuth.signInWithEmailAndPassword(email, password)
-                    .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+            // FIND USER FIRST IN REALTIME FIREBASE BEFORE SIGNING IN
+            databaseReference.addListenerForSingleValueEvent(
+                    new ValueEventListener() {
                         @Override
-                        public void onComplete(@NonNull Task<AuthResult> task) {
-                            if (task.isSuccessful()) {
+                        public void onDataChange(@NonNull DataSnapshot snapshot) {
+                            boolean isFinished = false, isFound = false;
+                            String email = "", pass = "";
+                            Map<String, Object> users = (Map<String, Object>) snapshot.getValue();
+
+                            try {
+                                for (Map.Entry<String, Object> entry : users.entrySet()) {
+                                    Map singleUser = (Map) entry.getValue();
+
+                                    if (singleUser.get("phonenumber").toString().equals(phonenumber)) {
+                                        email = singleUser.get("email").toString();
+                                        pass = singleUser.get("password").toString();
+                                        isFound = true;
+                                        break;
+                                    }
+                                }
+
+                                isFinished = true;
+
+                                if (isFinished && !isFound) {
+                                    Toast.makeText(login_screen.this, "User not found.", Toast.LENGTH_SHORT).show();
+                                    loader.dismissloader();
+                                }
+                                else if (isFinished && isFound) {
+                                    authenticate(email, pass);
+                                }
+                            }
+                            catch (NullPointerException e) {
+                                Toast.makeText(login_screen.this, "There were no users existed.", Toast.LENGTH_SHORT).show();
                                 loader.dismissloader();
-                                Toast.makeText(login_screen.this, "success..", Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(login_screen.this, showcirclecode.class);
-                                startActivity(intent);
-                            } else {
-                                loader.dismissloader();
-                                Toast.makeText(login_screen.this, "failed", Toast.LENGTH_SHORT).show();
                             }
                         }
-                    });
+
+
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError error) {}
+                    }
+            );
         }
     }
 
@@ -109,5 +144,23 @@ public class login_screen extends AppCompatActivity {
             finish();
         }
         super.onStart();
+    }
+
+    private void authenticate(String email, String password) {
+        firebaseAuth.signInWithEmailAndPassword(email, password)
+            .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                @Override
+                public void onComplete(@NonNull Task<AuthResult> task) {
+                    if (task.isSuccessful()) {
+                        loader.dismissloader();
+                        Toast.makeText(login_screen.this, "Login Successful.", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(login_screen.this, showcirclecode.class);
+                        startActivity(intent);
+                    } else {
+                        loader.dismissloader();
+                        Toast.makeText(login_screen.this, task.getException().getLocalizedMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
     }
 }

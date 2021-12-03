@@ -5,6 +5,7 @@ com/rexor/werescue/Activity/login_screen.java
  com.rexor.werescue.Activity.login_screen$1
  com.rexor.werescue.Activity.login_screen$2
  com.rexor.werescue.Activity.login_screen$3
+ com.rexor.werescue.Activity.login_screen$4
 com/rexor/werescue/Fragments/joincirclefragment.java
  com.rexor.werescue.Fragments.joincirclefragment
  com.rexor.werescue.Fragments.joincirclefragment$1
@@ -21,7 +22,8 @@ com/rexor/werescue/Activity/signup_screen.java
  com.rexor.werescue.Activity.signup_screen$1
  com.rexor.werescue.Activity.signup_screen$2
  com.rexor.werescue.Activity.signup_screen$3
- com.rexor.werescue.Activity.signup_screen$3$1
+ com.rexor.werescue.Activity.signup_screen$4
+ com.rexor.werescue.Activity.signup_screen$4$1
 com/rexor/werescue/Activity/MainActivity.java
  com.rexor.werescue.Activity.MainActivity
  com.rexor.werescue.Activity.MainActivity$1

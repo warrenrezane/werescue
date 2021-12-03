@@ -1,250 +1,250 @@
 [
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_ic_email.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/ic_email.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_icon_round.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-anydpi-v26/ic_icon_round.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_icon_foreground.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_icon_foreground.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_progress_background.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/progress_background.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_icon.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-anydpi-v26/ic_icon.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_progress_background.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/progress_background.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_ic_join_circle.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/ic_join_circle.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/layout_join_circle_fragment.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/layout/join_circle_fragment.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_icon_foreground.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_icon_foreground.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/layout_join_circle_fragment.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/layout/join_circle_fragment.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/layout_activity_login_screen.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/layout/activity_login_screen.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_icon_round.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-mdpi/ic_icon_round.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/layout_profile_fragment.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/layout/profile_fragment.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/anim_slide_left.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/anim/slide_left.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_ic_home_icon.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/ic_home_icon.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_ic_person_black.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/ic_person_black.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_ic_invitation.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/ic_invitation.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/menu_drawer_menu.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/menu/drawer_menu.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/layout_activity_login_screen.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/layout/activity_login_screen.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/layout_cardrecyclerview.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/layout/cardrecyclerview.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_icon_round.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-anydpi-v26/ic_icon_round.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_icon_round.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-xhdpi/ic_icon_round.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/layout_profile_fragment.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/layout/profile_fragment.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_ic_eye.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/ic_eye.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_icon.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-anydpi-v26/ic_icon.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/layout_activity_signup_screen.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/layout/activity_signup_screen.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_icon_round.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-xxxhdpi/ic_icon_round.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_invite_code_background.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/invite_code_background.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/anim_slide_right.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/anim/slide_right.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_icon.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-mdpi/ic_icon.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_ic_home_icon.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/ic_home_icon.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/layout_drawer_header.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/layout/drawer_header.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_ic_email.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/ic_email.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_icon.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-xxhdpi/ic_icon.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/layout_drawer_header.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/layout/drawer_header.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_ic_lock_black_24dp.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/ic_lock_black_24dp.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_ic_invitation.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/ic_invitation.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_ic_person_black.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/ic_person_black.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_ic_user.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/ic_user.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_vectorfamily.jpg.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/vectorfamily.jpg"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_cardbackground.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/cardbackground.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_vectorfamily.jpg.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/vectorfamily.jpg"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_icon.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-hdpi/ic_icon.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_share_button_background.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/share_button_background.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/layout_activity_home.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/layout/activity_home.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_icon_round.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-hdpi/ic_icon_round.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_icon_round.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-xxhdpi/ic_icon_round.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_icon.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-mdpi/ic_icon.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/layout_progress_bar.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/layout/progress_bar.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_icon.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-xhdpi/ic_icon.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_ic_log_out.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/ic_log_out.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/layout_activity_circle_members_map.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/layout/activity_circle_members_map.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/layout_cardrecyclerview.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/layout/cardrecyclerview.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_icon_round.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-mdpi/ic_icon_round.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/layout_activity_showcirclecode.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/layout/activity_showcirclecode.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_ic_eye.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/ic_eye.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_ic_user.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/ic_user.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/layout_activity_home.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/layout/activity_home.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_icon.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-xhdpi/ic_icon.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_loginbtnbackground.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/loginbtnbackground.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_icon.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-hdpi/ic_icon.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_ic_phonenumber.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/ic_phonenumber.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_ic_join_circle.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/ic_join_circle.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/layout_progress_bar.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/layout/progress_bar.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_ic_my_circle.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/ic_my_circle.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_icon.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-xxhdpi/ic_icon.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/menu_drawer_menu.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/menu/drawer_menu.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_app_logo.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/app_logo.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_icon_round.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-xxhdpi/ic_icon_round.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_ic_log_out.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/ic_log_out.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/anim_fade_anim.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/anim/fade_anim.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/layout_invite_code_fragment.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/layout/invite_code_fragment.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/anim_fade_anim.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/anim/fade_anim.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_share_button_background.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/share_button_background.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_icon_round.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-xhdpi/ic_icon_round.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_ic_my_circle.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/ic_my_circle.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_app_logo.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/app_logo.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/layout_activity_showcirclecode.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/layout/activity_showcirclecode.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_cardbackground.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/cardbackground.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/anim_slide_right.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/anim/slide_right.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/layout_activity_circle_members_map.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/layout/activity_circle_members_map.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_loginbtnbackground.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/loginbtnbackground.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_icon_round.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-hdpi/ic_icon_round.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/layout_invite_code_fragment.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/layout/invite_code_fragment.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/layout_activity_signup_screen.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/layout/activity_signup_screen.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_icon.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-xxxhdpi/ic_icon.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/layout_my_circle_fragment.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/layout/my_circle_fragment.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/anim_slide_left.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/anim/slide_left.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_distance.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/distance.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_distance.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/distance.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/layout_my_circle_fragment.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/layout/my_circle_fragment.xml"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/drawable_invite_code_background.xml.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/drawable/invite_code_background.xml"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_icon.png.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/mipmap-xxxhdpi/ic_icon.png"
     },
     {
-        "merged": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_icon_round.png.flat",
-        "source": "/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/res/mipmap-xxxhdpi/ic_icon_round.png"
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     }
 ]

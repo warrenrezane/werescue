@@ -2,10 +2,18 @@ package com.rexor.werescue.Model;
 
 public class users {
 
-    private String firstname, lastname, email, password, id, circle_id, date, image_url;
+    private String firstname;
+    private String lastname;
+    private String email;
+    private String password;
+    private String id;
+    private String circle_id;
+    private String date;
+    private String image_url;
+    private String phonenumber;
     private double latitude, longitude;
 
-    public  users(String id, String firstname, String lastname, String circle_id, String email, String password, String date, double latitude, double longitude, String image_url)
+    public  users(String id, String firstname, String lastname, String circle_id, String email, String password, String date, double latitude, double longitude, String image_url, String phonenumber)
     {
         this.id = id;
         this.firstname = firstname;
@@ -17,6 +25,7 @@ public class users {
         this.latitude = latitude;
         this.longitude = longitude;
         this.image_url = image_url;
+        this.phonenumber = phonenumber;
     }
 
     public String getImage_url() {
@@ -97,5 +106,13 @@ public class users {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getPhonenumber() {
+        return phonenumber;
+    }
+
+    public void setPhonenumber(String phonenumber) {
+        this.phonenumber = phonenumber;
     }
 }

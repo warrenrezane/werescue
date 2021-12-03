@@ -1847,7 +1847,6 @@ drawable ic_join_circle
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-drawable ic_lock_black_24dp
 drawable ic_log_out
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
@@ -1855,6 +1854,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_my_circle
 drawable ic_person_black
+drawable ic_phonenumber
 drawable ic_user
 drawable invite_code_background
 drawable loginbtnbackground
@@ -2081,9 +2081,7 @@ id edit_query
 id edittext_email
 id edittext_firstname
 id edittext_lastname
-id edittext_password
-id edittext_signemail
-id edittext_signpassword
+id edittext_phonenumber
 id elastic
 id email_textview
 id end
@@ -2261,6 +2259,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id phonenumber_textview
 id pin
 id position
 id postLayout
@@ -2727,6 +2726,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string phonenumber
 string profile_email
 string project_id
 string search_menu_title

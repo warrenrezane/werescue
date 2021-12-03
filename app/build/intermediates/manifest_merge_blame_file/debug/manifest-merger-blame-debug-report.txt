@@ -6,58 +6,58 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml
+8-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml
+9-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-11-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:5:5-79
-11-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:5:22-76
+11-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:5:22-76
 12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-12-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:6:5-81
-12-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:6:22-78
+12-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:6:22-78
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:7:5-67
-13-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:7:22-64
+13-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:7:5-67
+13-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:7:22-64
 14
 15    <!-- Include required permissions for Google Maps API to run. -->
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.android.gms:play-services-maps:17.0.1] /Users/timelapse/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:23:5-79
-16-->[com.google.android.gms:play-services-maps:17.0.1] /Users/timelapse/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:23:22-76
+16-->[com.google.android.gms:play-services-maps:17.0.1] /Users/lemonade/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:17.0.1] /Users/lemonade/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:23:22-76
 17
 18    <uses-feature
-18-->[com.google.android.gms:play-services-maps:17.0.1] /Users/timelapse/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
+18-->[com.google.android.gms:play-services-maps:17.0.1] /Users/lemonade/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
 19        android:glEsVersion="0x00020000"
-19-->[com.google.android.gms:play-services-maps:17.0.1] /Users/timelapse/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:27:9-41
+19-->[com.google.android.gms:play-services-maps:17.0.1] /Users/lemonade/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:27:9-41
 20        android:required="true" />
-20-->[com.google.android.gms:play-services-maps:17.0.1] /Users/timelapse/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:28:9-32
+20-->[com.google.android.gms:play-services-maps:17.0.1] /Users/lemonade/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:28:9-32
 21
 22    <queries>
-22-->[com.google.android.gms:play-services-maps:17.0.1] /Users/timelapse/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:30:5-34:15
+22-->[com.google.android.gms:play-services-maps:17.0.1] /Users/lemonade/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:30:5-34:15
 23
 24        <!-- Needs to be explicitly declared on Android R+ -->
 25        <package android:name="com.google.android.apps.maps" />
-25-->[com.google.android.gms:play-services-maps:17.0.1] /Users/timelapse/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:9-64
-25-->[com.google.android.gms:play-services-maps:17.0.1] /Users/timelapse/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:18-61
+25-->[com.google.android.gms:play-services-maps:17.0.1] /Users/lemonade/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:17.0.1] /Users/lemonade/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:18-61
 26    </queries>
 27
 28    <application
-28-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:9:5-44:19
+28-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:9:5-44:19
 29        android:allowBackup="true"
-29-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:10:9-35
+29-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:10:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-30-->[androidx.core:core:1.5.0] /Users/timelapse/.gradle/caches/transforms-3/68bce1ad376ed5b9406899de4e9966ab/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+30-->[androidx.core:core:1.5.0] /Users/lemonade/.gradle/caches/transforms-3/68bce1ad376ed5b9406899de4e9966ab/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
 32        android:icon="@mipmap/ic_icon"
-32-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:11:9-39
+32-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:11:9-39
 33        android:label="@string/app_name"
-33-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:12:9-41
+33-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:12:9-41
 34        android:roundIcon="@mipmap/ic_launcher_round"
-34-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:13:9-54
+34-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:13:9-54
 35        android:supportsRtl="true"
-35-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:14:9-35
+35-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:14:9-35
 36        android:theme="@style/AppTheme" >
-36-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:15:9-40
+36-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:15:9-40
 37
 38        <!--
 39             The API key for Google Maps-based APIs is defined as a string resource.
@@ -68,200 +68,200 @@
 44             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 45        -->
 46        <meta-data
-46-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:25:9-27:55
+46-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:25:9-27:55
 47            android:name="com.google.android.geo.API_KEY"
-47-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:26:13-58
+47-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:26:13-58
 48            android:value="@string/google_maps_key" />
-48-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:27:13-52
+48-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:27:13-52
 49
 50        <activity
-50-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:29:9-31:82
+50-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:29:9-31:82
 51            android:name="com.rexor.werescue.Activity.circle_members_map"
-51-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:30:13-56
+51-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:30:13-56
 52            android:label="@string/title_activity_circle_members_map" />
-52-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:31:13-70
+52-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:31:13-70
 53        <activity android:name="com.rexor.werescue.Activity.showcirclecode" />
-53-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:32:9-61
-53-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:32:19-58
+53-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:32:9-61
+53-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:32:19-58
 54        <activity android:name="com.rexor.werescue.Activity.home" />
-54-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:33:9-50
-54-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:33:19-48
+54-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:33:9-50
+54-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:33:19-48
 55        <activity android:name="com.rexor.werescue.Activity.signup_screen" />
-55-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:34:9-60
-55-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:34:19-57
+55-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:34:9-60
+55-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:34:19-57
 56        <activity android:name="com.rexor.werescue.Activity.login_screen" />
-56-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:35:9-59
-56-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:35:19-56
+56-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:35:9-59
+56-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:35:19-56
 57        <activity
-57-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:36:9-43:20
+57-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:36:9-43:20
 58            android:name="com.rexor.werescue.Activity.MainActivity"
-58-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:36:19-56
+58-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:36:19-56
 59            android:theme="@style/SplashAppTheme" >
-59-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:37:13-50
+59-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:37:13-50
 60            <intent-filter>
-60-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:38:13-42:29
+60-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:38:13-42:29
 61                <action android:name="android.intent.action.MAIN" />
-61-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:39:17-69
-61-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:39:25-66
+61-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:39:17-69
+61-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:39:25-66
 62
 63                <category android:name="android.intent.category.LAUNCHER" />
-63-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:41:17-77
-63-->/Users/timelapse/AndroidStudioProjects/WeRescue/app/src/main/AndroidManifest.xml:41:27-74
+63-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:41:17-77
+63-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:41:27-74
 64            </intent-filter>
 65        </activity>
 66        <activity
-66-->[com.nabinbhandari.android:permissions:3.8] /Users/timelapse/.gradle/caches/transforms-3/585e1826744efb24665946adb49bbc3a/transformed/jetified-permissions-3.8/AndroidManifest.xml:12:9-14:67
+66-->[com.nabinbhandari.android:permissions:3.8] /Users/lemonade/.gradle/caches/transforms-3/585e1826744efb24665946adb49bbc3a/transformed/jetified-permissions-3.8/AndroidManifest.xml:12:9-14:67
 67            android:name="com.nabinbhandari.android.permissions.PermissionsActivity"
-67-->[com.nabinbhandari.android:permissions:3.8] /Users/timelapse/.gradle/caches/transforms-3/585e1826744efb24665946adb49bbc3a/transformed/jetified-permissions-3.8/AndroidManifest.xml:13:13-85
+67-->[com.nabinbhandari.android:permissions:3.8] /Users/lemonade/.gradle/caches/transforms-3/585e1826744efb24665946adb49bbc3a/transformed/jetified-permissions-3.8/AndroidManifest.xml:13:13-85
 68            android:theme="@style/Permissions.TransparentTheme" /> <!-- Needs to be explicitly declared on P+ -->
-68-->[com.nabinbhandari.android:permissions:3.8] /Users/timelapse/.gradle/caches/transforms-3/585e1826744efb24665946adb49bbc3a/transformed/jetified-permissions-3.8/AndroidManifest.xml:14:13-64
+68-->[com.nabinbhandari.android:permissions:3.8] /Users/lemonade/.gradle/caches/transforms-3/585e1826744efb24665946adb49bbc3a/transformed/jetified-permissions-3.8/AndroidManifest.xml:14:13-64
 69        <uses-library
-69-->[com.google.android.gms:play-services-maps:17.0.1] /Users/timelapse/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
+69-->[com.google.android.gms:play-services-maps:17.0.1] /Users/lemonade/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
 70            android:name="org.apache.http.legacy"
-70-->[com.google.android.gms:play-services-maps:17.0.1] /Users/timelapse/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:40:13-50
+70-->[com.google.android.gms:play-services-maps:17.0.1] /Users/lemonade/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:40:13-50
 71            android:required="false" />
-71-->[com.google.android.gms:play-services-maps:17.0.1] /Users/timelapse/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:41:13-37
+71-->[com.google.android.gms:play-services-maps:17.0.1] /Users/lemonade/.gradle/caches/transforms-3/034e5b75fa70e0e5167dc79ab650dad5/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:41:13-37
 72
 73        <activity
-73-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+73-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
 74            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-74-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+74-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
 75            android:excludeFromRecents="true"
-75-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+75-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
 76            android:exported="true"
-76-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+76-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
 77            android:launchMode="singleTask"
-77-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+77-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
 78            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-78-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+78-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
 79            <intent-filter>
-79-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+79-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
 80                <action android:name="android.intent.action.VIEW" />
-80-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
-80-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+80-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+80-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
 81
 82                <category android:name="android.intent.category.DEFAULT" />
-82-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-82-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+82-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+82-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
 83                <category android:name="android.intent.category.BROWSABLE" />
-83-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
-83-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+83-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+83-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
 84
 85                <data
-85-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+85-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
 86                    android:host="firebase.auth"
-86-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+86-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
 87                    android:path="/"
-87-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+87-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
 88                    android:scheme="genericidp" />
-88-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+88-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
 89            </intent-filter>
 90        </activity>
 91        <activity
-91-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+91-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
 92            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-92-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+92-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
 93            android:excludeFromRecents="true"
-93-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+93-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
 94            android:exported="true"
-94-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+94-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
 95            android:launchMode="singleTask"
-95-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+95-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
 96            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-96-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+96-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
 97            <intent-filter>
-97-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+97-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
 98                <action android:name="android.intent.action.VIEW" />
-98-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
-98-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+98-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+98-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
 99
 100                <category android:name="android.intent.category.DEFAULT" />
-100-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-100-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+100-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+100-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
 101                <category android:name="android.intent.category.BROWSABLE" />
-101-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
-101-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+101-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+101-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
 102
 103                <data
-103-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+103-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
 104                    android:host="firebase.auth"
-104-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+104-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
 105                    android:path="/"
-105-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+105-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
 106                    android:scheme="recaptcha" />
-106-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+106-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
 107            </intent-filter>
 108        </activity>
 109
 110        <service
-110-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+110-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
 111            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-111-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+111-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
 112            android:enabled="true"
-112-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+112-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
 113            android:exported="false" >
-113-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+113-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
 114            <intent-filter>
-114-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+114-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
 115                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-115-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
-115-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+115-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+115-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
 116
 117                <category android:name="android.intent.category.DEFAULT" />
-117-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-117-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+117-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+117-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
 118            </intent-filter>
 119        </service>
 120        <service
-120-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+120-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
 121            android:name="com.google.firebase.components.ComponentDiscoveryService"
-121-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
+121-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
 122            android:directBootAware="true"
-122-->[com.google.firebase:firebase-common:20.0.0] /Users/timelapse/.gradle/caches/transforms-3/3434c465fd4c5a7cef643cedf90e31fb/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+122-->[com.google.firebase:firebase-common:20.0.0] /Users/lemonade/.gradle/caches/transforms-3/3434c465fd4c5a7cef643cedf90e31fb/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
 123            android:exported="false" >
-123-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+123-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
 124            <meta-data
-124-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+124-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
 125                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-125-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+125-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
 126                android:value="com.google.firebase.components.ComponentRegistrar" />
-126-->[com.google.firebase:firebase-auth:21.0.1] /Users/timelapse/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+126-->[com.google.firebase:firebase-auth:21.0.1] /Users/lemonade/.gradle/caches/transforms-3/b5005a50f9e588e6562b58a314de0cf4/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
 127            <meta-data
-127-->[com.google.firebase:firebase-database:20.0.1] /Users/timelapse/.gradle/caches/transforms-3/7221a69688f936019a5fc568a60a8c8f/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:32:13-34:85
+127-->[com.google.firebase:firebase-database:20.0.1] /Users/lemonade/.gradle/caches/transforms-3/7221a69688f936019a5fc568a60a8c8f/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:32:13-34:85
 128                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-128-->[com.google.firebase:firebase-database:20.0.1] /Users/timelapse/.gradle/caches/transforms-3/7221a69688f936019a5fc568a60a8c8f/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:33:17-109
+128-->[com.google.firebase:firebase-database:20.0.1] /Users/lemonade/.gradle/caches/transforms-3/7221a69688f936019a5fc568a60a8c8f/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:33:17-109
 129                android:value="com.google.firebase.components.ComponentRegistrar" />
-129-->[com.google.firebase:firebase-database:20.0.1] /Users/timelapse/.gradle/caches/transforms-3/7221a69688f936019a5fc568a60a8c8f/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:34:17-82
+129-->[com.google.firebase:firebase-database:20.0.1] /Users/lemonade/.gradle/caches/transforms-3/7221a69688f936019a5fc568a60a8c8f/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:34:17-82
 130        </service>
 131
 132        <provider
-132-->[com.google.firebase:firebase-common:20.0.0] /Users/timelapse/.gradle/caches/transforms-3/3434c465fd4c5a7cef643cedf90e31fb/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+132-->[com.google.firebase:firebase-common:20.0.0] /Users/lemonade/.gradle/caches/transforms-3/3434c465fd4c5a7cef643cedf90e31fb/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
 133            android:name="com.google.firebase.provider.FirebaseInitProvider"
-133-->[com.google.firebase:firebase-common:20.0.0] /Users/timelapse/.gradle/caches/transforms-3/3434c465fd4c5a7cef643cedf90e31fb/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+133-->[com.google.firebase:firebase-common:20.0.0] /Users/lemonade/.gradle/caches/transforms-3/3434c465fd4c5a7cef643cedf90e31fb/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
 134            android:authorities="com.rexor.werescue.firebaseinitprovider"
-134-->[com.google.firebase:firebase-common:20.0.0] /Users/timelapse/.gradle/caches/transforms-3/3434c465fd4c5a7cef643cedf90e31fb/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+134-->[com.google.firebase:firebase-common:20.0.0] /Users/lemonade/.gradle/caches/transforms-3/3434c465fd4c5a7cef643cedf90e31fb/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
 135            android:directBootAware="true"
-135-->[com.google.firebase:firebase-common:20.0.0] /Users/timelapse/.gradle/caches/transforms-3/3434c465fd4c5a7cef643cedf90e31fb/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+135-->[com.google.firebase:firebase-common:20.0.0] /Users/lemonade/.gradle/caches/transforms-3/3434c465fd4c5a7cef643cedf90e31fb/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
 136            android:exported="false"
-136-->[com.google.firebase:firebase-common:20.0.0] /Users/timelapse/.gradle/caches/transforms-3/3434c465fd4c5a7cef643cedf90e31fb/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+136-->[com.google.firebase:firebase-common:20.0.0] /Users/lemonade/.gradle/caches/transforms-3/3434c465fd4c5a7cef643cedf90e31fb/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
 137            android:initOrder="100" />
-137-->[com.google.firebase:firebase-common:20.0.0] /Users/timelapse/.gradle/caches/transforms-3/3434c465fd4c5a7cef643cedf90e31fb/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+137-->[com.google.firebase:firebase-common:20.0.0] /Users/lemonade/.gradle/caches/transforms-3/3434c465fd4c5a7cef643cedf90e31fb/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
 138
 139        <activity
-139-->[com.google.android.gms:play-services-base:17.5.0] /Users/timelapse/.gradle/caches/transforms-3/964e0164986e381b42bd6443241b9294/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+139-->[com.google.android.gms:play-services-base:17.5.0] /Users/lemonade/.gradle/caches/transforms-3/964e0164986e381b42bd6443241b9294/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
 140            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-140-->[com.google.android.gms:play-services-base:17.5.0] /Users/timelapse/.gradle/caches/transforms-3/964e0164986e381b42bd6443241b9294/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+140-->[com.google.android.gms:play-services-base:17.5.0] /Users/lemonade/.gradle/caches/transforms-3/964e0164986e381b42bd6443241b9294/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
 141            android:exported="false"
-141-->[com.google.android.gms:play-services-base:17.5.0] /Users/timelapse/.gradle/caches/transforms-3/964e0164986e381b42bd6443241b9294/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+141-->[com.google.android.gms:play-services-base:17.5.0] /Users/lemonade/.gradle/caches/transforms-3/964e0164986e381b42bd6443241b9294/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
 142            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-142-->[com.google.android.gms:play-services-base:17.5.0] /Users/timelapse/.gradle/caches/transforms-3/964e0164986e381b42bd6443241b9294/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+142-->[com.google.android.gms:play-services-base:17.5.0] /Users/lemonade/.gradle/caches/transforms-3/964e0164986e381b42bd6443241b9294/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
 143
 144        <meta-data
-144-->[com.google.android.gms:play-services-basement:17.5.0] /Users/timelapse/.gradle/caches/transforms-3/995b9a842b53f388291f9894ef91732d/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+144-->[com.google.android.gms:play-services-basement:17.5.0] /Users/lemonade/.gradle/caches/transforms-3/995b9a842b53f388291f9894ef91732d/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
 145            android:name="com.google.android.gms.version"
-145-->[com.google.android.gms:play-services-basement:17.5.0] /Users/timelapse/.gradle/caches/transforms-3/995b9a842b53f388291f9894ef91732d/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+145-->[com.google.android.gms:play-services-basement:17.5.0] /Users/lemonade/.gradle/caches/transforms-3/995b9a842b53f388291f9894ef91732d/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
 146            android:value="@integer/google_play_services_version" />
-146-->[com.google.android.gms:play-services-basement:17.5.0] /Users/timelapse/.gradle/caches/transforms-3/995b9a842b53f388291f9894ef91732d/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+146-->[com.google.android.gms:play-services-basement:17.5.0] /Users/lemonade/.gradle/caches/transforms-3/995b9a842b53f388291f9894ef91732d/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
 147    </application>
 148
 149</manifest>

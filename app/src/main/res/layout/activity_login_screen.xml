@@ -42,32 +42,14 @@
                 app:hintEnabled="false">
 
                 <EditText
-                    android:id="@+id/edittext_email"
+                    android:id="@+id/edittext_phonenumber"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:drawableStart="@drawable/ic_email"
+                    android:drawableStart="@drawable/ic_phonenumber"
                     android:drawablePadding="10dp"
-                    android:hint="@string/email"
-                    android:inputType="textEmailAddress"
-                    android:textSize="20sp" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:passwordToggleEnabled="true"
-                app:hintEnabled="false"
-                android:layout_marginTop="15dp">
-
-                <EditText
-                    android:id="@+id/edittext_password"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:drawableStart="@drawable/ic_lock_black_24dp"
-                    android:drawableEnd="@drawable/ic_eye"
-                    android:drawablePadding="10dp"
-                    android:hint="@string/password"
-                    android:inputType="textPassword"
+                    android:hint="@string/phonenumber"
+                    android:inputType="phone"
+                    android:digits="0123456789+"
                     android:textSize="20sp" />
             </com.google.android.material.textfield.TextInputLayout>
 

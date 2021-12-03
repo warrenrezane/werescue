@@ -58,7 +58,7 @@
                 android:textSize="20sp" />
 
             <EditText
-                android:id="@+id/edittext_signemail"
+                android:id="@+id/edittext_email"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="10dp"
@@ -68,24 +68,16 @@
                 android:inputType="textEmailAddress"
                 android:textSize="20sp" />
 
-            <com.google.android.material.textfield.TextInputLayout
+            <EditText
+                android:id="@+id/edittext_phonenumber"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:passwordToggleEnabled="true"
-                app:hintEnabled="false"
-                android:layout_marginTop="10dp">
-
-                <EditText
-                    android:id="@+id/edittext_signpassword"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:drawableStart="@drawable/ic_lock_black_24dp"
-                    android:drawableEnd="@drawable/ic_eye"
-                    android:drawablePadding="10dp"
-                    android:hint="@string/password"
-                    android:inputType="textPassword"
-                    android:textSize="20sp" />
-            </com.google.android.material.textfield.TextInputLayout>
+                android:layout_height="50dp"
+                android:digits="0123456789+"
+                android:drawableStart="@drawable/ic_phonenumber"
+                android:drawablePadding="10dp"
+                android:hint="@string/phonenumber"
+                android:inputType="phone"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/signup_button"
