@@ -113,17 +113,22 @@ public class signup_screen extends AppCompatActivity {
                         new ValueEventListener() {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                                boolean isFinished = false, isFound = false;
-                                Map<String, Object> users = (Map<String, Object>) snapshot.getValue();
-
                                 try {
+                                    boolean isFinished = false, isFound = false;
+                                    Map<String, Object> users = (Map<String, Object>) snapshot.getValue();
+
                                     for (Map.Entry<String, Object> entry : users.entrySet()) {
                                         Map singleUser = (Map) entry.getValue();
 
-                                        if (singleUser.get("phonenumber").toString().equals(phonenumber)) {
+                                        if (!singleUser.containsKey("phonenumber")) {
+                                            continue;
+                                        }
+                                        else if (singleUser.containsKey("phonenumber") && singleUser.get("phonenumber").toString().equals(phonenumber)) {
                                             isFound = true;
                                             break;
                                         }
+
+
                                     }
 
                                     isFinished = true;
@@ -137,7 +142,8 @@ public class signup_screen extends AppCompatActivity {
                                     }
                                 }
                                 catch (NullPointerException e) {
-                                    Toast.makeText(signup_screen.this, "There has been an internal problem.", Toast.LENGTH_SHORT).show();
+                                    Log.d("Debug", e.getLocalizedMessage());
+                                    Toast.makeText(signup_screen.this, "There has been an internal problem. ", Toast.LENGTH_SHORT).show();
                                     loader.dismissloader();
                                 }
                             }

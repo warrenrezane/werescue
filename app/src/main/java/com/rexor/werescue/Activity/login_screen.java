@@ -97,15 +97,18 @@ public class login_screen extends AppCompatActivity {
                     new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
-                            boolean isFinished = false, isFound = false;
-                            String email = "", pass = "";
-                            Map<String, Object> users = (Map<String, Object>) snapshot.getValue();
-
                             try {
+                                boolean isFinished = false, isFound = false;
+                                String email = "", pass = "";
+                                Map<String, Object> users = (Map<String, Object>) snapshot.getValue();
+
                                 for (Map.Entry<String, Object> entry : users.entrySet()) {
                                     Map singleUser = (Map) entry.getValue();
 
-                                    if (singleUser.get("phonenumber").toString().equals(phonenumber)) {
+                                    if (!singleUser.containsKey("phonenumber")) {
+                                        continue;
+                                    }
+                                    else if (singleUser.containsKey("phonenumber") && singleUser.get("phonenumber").toString().equals(phonenumber)) {
                                         email = singleUser.get("email").toString();
                                         pass = singleUser.get("password").toString();
                                         isFound = true;
