@@ -20,6 +20,10 @@
         "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/layout/join_circle_fragment.xml"
     },
     {
+        "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable_ic_fab_phonenumber.xml.flat",
+        "source": "/Users/lemonade/Desktop/werescue/app/src/main/res/drawable/ic_fab_phonenumber.xml"
+    },
+    {
         "merged": "/Users/lemonade/Desktop/werescue/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_icon_foreground.xml.flat",
         "source": "/Users/lemonade/Desktop/werescue/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_icon_foreground.xml"
     },

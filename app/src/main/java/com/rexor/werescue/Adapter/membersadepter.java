@@ -16,18 +16,20 @@ import com.rexor.werescue.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class membersadepter extends RecyclerView.Adapter<membersadepter.membersadepterViewHolder> {
 
-    ArrayList<String> namelist, idlist;
+    ArrayList<String> namelist, idlist, phonelist;
     Context context;
     public membersadepter(){
         //default constructor
     }
-    public membersadepter(ArrayList<String> namelist, ArrayList<String> idlist, Context context) {
+    public membersadepter(ArrayList<String> namelist, ArrayList<String> idlist, ArrayList<String> phonelist, Context context) {
         this.namelist = namelist;
         this.idlist = idlist;
+        this.phonelist = phonelist;
         this.context = context;
     }
 
@@ -35,7 +37,7 @@ public class membersadepter extends RecyclerView.Adapter<membersadepter.membersa
     @Override
     public membersadepterViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.cardrecyclerview, parent,false);
-        membersadepterViewHolder membersadepterView = new membersadepterViewHolder(v,context,namelist,idlist);
+        membersadepterViewHolder membersadepterView = new membersadepterViewHolder(v,context,namelist,idlist, phonelist);
         return membersadepterView;
     }
 
@@ -47,6 +49,7 @@ public class membersadepter extends RecyclerView.Adapter<membersadepter.membersa
         holder.nametxt.setText(strobj);
 
         final String strobj1 = idlist.get(position);
+        final String strobj2 = phonelist.get(position);
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,6 +57,7 @@ public class membersadepter extends RecyclerView.Adapter<membersadepter.membersa
 
                 Intent intent = new Intent(context, circle_members_map.class);
                 intent.putExtra("joined_uid",strobj1);
+                intent.putExtra("phonenumber", strobj2);
                 context.startActivity(intent);
                 //Toast.makeText(context,"response:"+strobj1,Toast.LENGTH_LONG).show();
             }
@@ -70,15 +74,16 @@ public class membersadepter extends RecyclerView.Adapter<membersadepter.membersa
     public class membersadepterViewHolder extends RecyclerView.ViewHolder {
         TextView nametxt;
         Context c;
-        ArrayList<String> namearraylist, idarraylist;
+        ArrayList<String> namearraylist, idarraylist, phonearraylist;
         FirebaseUser firebaseUser;
         FirebaseAuth firebaseAuth;
-        public membersadepterViewHolder (@NonNull View itemView, Context c, ArrayList<String> namearraylist, ArrayList<String> idarraylist)
+        public membersadepterViewHolder (@NonNull View itemView, Context c, ArrayList<String> namearraylist, ArrayList<String> idarraylist, ArrayList<String> phonearraylist)
         {
             super(itemView);
             this.c = c;
             this.namearraylist = namearraylist;
             this.idarraylist = idarraylist;
+            this.phonearraylist = phonearraylist;
 
             firebaseAuth = FirebaseAuth.getInstance();
             firebaseUser = firebaseAuth.getCurrentUser();

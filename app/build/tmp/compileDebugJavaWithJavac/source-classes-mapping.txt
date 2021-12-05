@@ -40,6 +40,7 @@ com/rexor/werescue/Model/locationhelper.java
 com/rexor/werescue/Activity/circle_members_map.java
  com.rexor.werescue.Activity.circle_members_map
  com.rexor.werescue.Activity.circle_members_map$1
+ com.rexor.werescue.Activity.circle_members_map$2
 com/rexor/werescue/Model/circlejoin.java
  com.rexor.werescue.Model.circlejoin
 com/rexor/werescue/Fragments/invitecodefragment.java

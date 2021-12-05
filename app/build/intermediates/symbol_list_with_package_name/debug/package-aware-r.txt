@@ -1840,6 +1840,7 @@ drawable googleg_standard_color_18
 drawable ic_clock_black_24dp
 drawable ic_email
 drawable ic_eye
+drawable ic_fab_phonenumber
 drawable ic_home_icon
 drawable ic_icon_foreground
 drawable ic_invitation
@@ -2091,6 +2092,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab
 id fade
 id faded_signup_text
 id fill

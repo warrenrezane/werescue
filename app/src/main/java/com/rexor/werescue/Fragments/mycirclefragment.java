@@ -29,7 +29,7 @@ public class mycirclefragment extends Fragment {
     RecyclerView.Adapter adapter;
     RecyclerView.LayoutManager layoutManager;
     //users cuser;
-    ArrayList<String> namelist, idlist;
+    ArrayList<String> namelist, idlist, phonelist;
 
     DatabaseReference databaseReference, currentreference;
     FirebaseAuth firebaseAuth;
@@ -48,6 +48,7 @@ public class mycirclefragment extends Fragment {
 
         namelist = new ArrayList<>();
         idlist = new ArrayList<>();
+        phonelist = new ArrayList<>();
 
         layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
@@ -61,6 +62,7 @@ public class mycirclefragment extends Fragment {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 namelist.clear();
                 idlist.clear();
+                phonelist.clear();
 
                 if (dataSnapshot.exists())
                 {
@@ -72,10 +74,12 @@ public class mycirclefragment extends Fragment {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                 //users cuser = dataSnapshot.getValue(users.class);
-                                String fatchname = dataSnapshot.child("firstname").getValue(String.class);
-                                String fatchid = dataSnapshot.child("id").getValue(String.class);
-                                namelist.add(fatchname);
-                                idlist.add(fatchid);
+                                String fetchname = dataSnapshot.child("firstname").getValue(String.class);
+                                String fetchid = dataSnapshot.child("id").getValue(String.class);
+                                String fetchphone = dataSnapshot.child("phonenumber").getValue(String.class);
+                                namelist.add(fetchname);
+                                idlist.add(fetchid);
+                                phonelist.add(fetchphone);
                                 adapter.notifyDataSetChanged();
                             }
 
@@ -94,7 +98,7 @@ public class mycirclefragment extends Fragment {
             }
         });
 
-        adapter = new membersadepter(namelist, idlist, getActivity());
+        adapter = new membersadepter(namelist, idlist, phonelist, getActivity());
         recyclerView.setAdapter(adapter);
         adapter.notifyDataSetChanged();
 

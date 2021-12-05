@@ -7,9 +7,12 @@ import androidx.fragment.app.FragmentActivity;
 
 import android.Manifest;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.rexor.werescue.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -29,6 +32,8 @@ public class circle_members_map extends FragmentActivity implements OnMapReadyCa
     LatLng latLng;
     DatabaseReference databaseReference;
     String uid;
+    String phonenumber;
+    FloatingActionButton call;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +48,18 @@ public class circle_members_map extends FragmentActivity implements OnMapReadyCa
         Intent intent = getIntent();
         if (intent != null) {
             uid = intent.getStringExtra("joined_uid");
+            phonenumber = intent.getStringExtra("phonenumber");
         }
+
+        call = findViewById(R.id.fab);
+        call.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:" + phonenumber));
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -78,8 +94,8 @@ public class circle_members_map extends FragmentActivity implements OnMapReadyCa
                 }
             });
 
-        }else {
-            Toast.makeText(circle_members_map.this, "check permission", Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(circle_members_map.this, "Check permission.", Toast.LENGTH_SHORT).show();
         }
     }
 }
