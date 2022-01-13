@@ -6,19 +6,19 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml
+8-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml
+9-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-11-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:5:5-79
-11-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:5:22-76
+11-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:5:22-76
 12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-12-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:6:5-81
-12-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:6:22-78
+12-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:6:22-78
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:7:5-67
-13-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:7:22-64
+13-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:7:5-67
+13-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:7:22-64
 14
 15    <!-- Include required permissions for Google Maps API to run. -->
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -42,22 +42,22 @@
 26    </queries>
 27
 28    <application
-28-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:9:5-44:19
+28-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:9:5-44:19
 29        android:allowBackup="true"
-29-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:10:9-35
+29-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:10:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 30-->[androidx.core:core:1.5.0] /Users/lemonade/.gradle/caches/transforms-3/68bce1ad376ed5b9406899de4e9966ab/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
 32        android:icon="@mipmap/ic_icon"
-32-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:11:9-39
+32-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:11:9-39
 33        android:label="@string/app_name"
-33-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:12:9-41
+33-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:12:9-41
 34        android:roundIcon="@mipmap/ic_launcher_round"
-34-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:13:9-54
+34-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:13:9-54
 35        android:supportsRtl="true"
-35-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:14:9-35
+35-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:14:9-35
 36        android:theme="@style/AppTheme" >
-36-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:15:9-40
+36-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:15:9-40
 37
 38        <!--
 39             The API key for Google Maps-based APIs is defined as a string resource.
@@ -68,45 +68,45 @@
 44             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 45        -->
 46        <meta-data
-46-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:25:9-27:55
+46-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:25:9-27:55
 47            android:name="com.google.android.geo.API_KEY"
-47-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:26:13-58
+47-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:26:13-58
 48            android:value="@string/google_maps_key" />
-48-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:27:13-52
+48-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:27:13-52
 49
 50        <activity
-50-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:29:9-31:82
+50-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:29:9-31:82
 51            android:name="com.rexor.werescue.Activity.circle_members_map"
-51-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:30:13-56
+51-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:30:13-56
 52            android:label="@string/title_activity_circle_members_map" />
-52-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:31:13-70
+52-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:31:13-70
 53        <activity android:name="com.rexor.werescue.Activity.showcirclecode" />
-53-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:32:9-61
-53-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:32:19-58
+53-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:32:9-61
+53-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:32:19-58
 54        <activity android:name="com.rexor.werescue.Activity.home" />
-54-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:33:9-50
-54-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:33:19-48
+54-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:33:9-50
+54-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:33:19-48
 55        <activity android:name="com.rexor.werescue.Activity.signup_screen" />
-55-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:34:9-60
-55-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:34:19-57
+55-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:34:9-60
+55-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:34:19-57
 56        <activity android:name="com.rexor.werescue.Activity.login_screen" />
-56-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:35:9-59
-56-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:35:19-56
+56-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:35:9-59
+56-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:35:19-56
 57        <activity
-57-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:36:9-43:20
+57-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:36:9-43:20
 58            android:name="com.rexor.werescue.Activity.MainActivity"
-58-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:36:19-56
+58-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:36:19-56
 59            android:theme="@style/SplashAppTheme" >
-59-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:37:13-50
+59-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:37:13-50
 60            <intent-filter>
-60-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:38:13-42:29
+60-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:38:13-42:29
 61                <action android:name="android.intent.action.MAIN" />
-61-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:39:17-69
-61-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:39:25-66
+61-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:39:17-69
+61-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:39:25-66
 62
 63                <category android:name="android.intent.category.LAUNCHER" />
-63-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:41:17-77
-63-->/Users/lemonade/Desktop/werescue/app/src/main/AndroidManifest.xml:41:27-74
+63-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:41:17-77
+63-->/Users/lemonade/Desktop/Desktop Files/werescue/app/src/main/AndroidManifest.xml:41:27-74
 64            </intent-filter>
 65        </activity>
 66        <activity

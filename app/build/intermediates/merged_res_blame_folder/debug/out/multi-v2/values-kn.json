@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lemonade/Desktop/werescue/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml",
+            "outputFile": "/Users/lemonade/Desktop/Desktop Files/werescue/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml",
             "map": [
                 {
                     "source": "/Users/lemonade/.gradle/caches/transforms-3/964e0164986e381b42bd6443241b9294/transformed/jetified-play-services-base-17.5.0/res/values-kn/values.xml",

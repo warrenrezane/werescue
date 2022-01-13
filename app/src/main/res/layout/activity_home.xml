@@ -8,6 +8,7 @@
     android:fitsSystemWindows="true"
     android:id="@+id/drawerlayout">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,12 +19,16 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/colorPrimary"
+
+        />
+
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragment_container"
             android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
     </LinearLayout>
 
     <com.google.android.material.navigation.NavigationView

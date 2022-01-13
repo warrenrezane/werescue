@@ -54,4 +54,5 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:28.3.0')
 
     implementation("com.google.guava:guava:31.0.1-android")
+    implementation 'com.github.aarsy.googlemapsanimations:googlemapsanimations:1.0.5'
 }

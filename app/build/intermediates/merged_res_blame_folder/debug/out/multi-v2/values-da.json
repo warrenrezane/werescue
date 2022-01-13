@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lemonade/Desktop/werescue/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml",
+            "outputFile": "/Users/lemonade/Desktop/Desktop Files/werescue/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml",
             "map": [
                 {
                     "source": "/Users/lemonade/.gradle/caches/transforms-3/68bce1ad376ed5b9406899de4e9966ab/transformed/core-1.5.0/res/values-da/values-da.xml",

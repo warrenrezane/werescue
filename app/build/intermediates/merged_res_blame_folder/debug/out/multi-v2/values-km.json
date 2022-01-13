@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lemonade/Desktop/werescue/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml",
+            "outputFile": "/Users/lemonade/Desktop/Desktop Files/werescue/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml",
             "map": [
                 {
                     "source": "/Users/lemonade/.gradle/caches/transforms-3/0b3b1c470e6b71b54a148eec1ac9d0e5/transformed/navigation-ui-2.3.5/res/values-km/values-km.xml",

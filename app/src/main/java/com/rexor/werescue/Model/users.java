@@ -12,8 +12,9 @@ public class users {
     private String image_url;
     private String phonenumber;
     private double latitude, longitude;
+    private boolean emergency;
 
-    public  users(String id, String firstname, String lastname, String circle_id, String email, String password, String date, double latitude, double longitude, String image_url, String phonenumber)
+    public  users(String id, String firstname, String lastname, String circle_id, String email, String password, String date, double latitude, double longitude, String image_url, String phonenumber, boolean emergency)
     {
         this.id = id;
         this.firstname = firstname;
@@ -26,6 +27,7 @@ public class users {
         this.longitude = longitude;
         this.image_url = image_url;
         this.phonenumber = phonenumber;
+        this.emergency = emergency;
     }
 
     public String getImage_url() {
@@ -114,5 +116,13 @@ public class users {
 
     public void setPhonenumber(String phonenumber) {
         this.phonenumber = phonenumber;
+    }
+
+    public boolean getEmergency() {
+        return emergency;
+    }
+
+    public void setEmergency(boolean emergency) {
+        this.emergency = emergency;
     }
 }

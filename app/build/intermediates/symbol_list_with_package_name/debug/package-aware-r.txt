@@ -1800,6 +1800,7 @@ drawable abc_vector_test
 drawable app_logo
 drawable avd_hide_password
 drawable avd_show_password
+drawable background
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1839,6 +1840,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_clock_black_24dp
 drawable ic_email
+drawable ic_emergency
 drawable ic_eye
 drawable ic_fab_phonenumber
 drawable ic_home_icon
@@ -1856,7 +1858,9 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_my_circle
 drawable ic_person_black
 drawable ic_phonenumber
+drawable ic_toggle_emergency
 drawable ic_user
+drawable ic_your_position
 drawable invite_code_background
 drawable loginbtnbackground
 drawable material_cursor_drawable
@@ -2118,6 +2122,8 @@ id grouping
 id groups
 id guideline
 id header_email_text
+id header_emergency_status
+id header_emergency_text
 id header_name_text
 id header_title
 id hideable
@@ -2386,6 +2392,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toggle_emergency
 id top
 id topPanel
 id touch_outside
@@ -2425,6 +2432,8 @@ id wrap_content_constrained
 id x_left
 id x_right
 id zero_corner_chip
+id zoom_to_emergency
+id zoom_to_position
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration

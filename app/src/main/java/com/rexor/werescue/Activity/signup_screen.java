@@ -114,31 +114,34 @@ public class signup_screen extends AppCompatActivity {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot snapshot) {
                                 try {
-                                    boolean isFinished = false, isFound = false;
-                                    Map<String, Object> users = (Map<String, Object>) snapshot.getValue();
+                                    if (snapshot.exists()) {
+                                        boolean isFinished = false, isFound = false;
+                                        Map<String, Object> users = (Map<String, Object>) snapshot.getValue();
 
-                                    for (Map.Entry<String, Object> entry : users.entrySet()) {
-                                        Map singleUser = (Map) entry.getValue();
+                                        for (Map.Entry<String, Object> entry : users.entrySet()) {
+                                            Map singleUser = (Map) entry.getValue();
 
-                                        if (!singleUser.containsKey("phonenumber")) {
-                                            continue;
+                                            if (!singleUser.containsKey("phonenumber")) {
+                                                continue;
+                                            }
+                                            else if (singleUser.containsKey("phonenumber") && singleUser.get("phonenumber").toString().equals(phonenumber)) {
+                                                isFound = true;
+                                                break;
+                                            }
                                         }
-                                        else if (singleUser.containsKey("phonenumber") && singleUser.get("phonenumber").toString().equals(phonenumber)) {
-                                            isFound = true;
-                                            break;
+
+                                        isFinished = true;
+
+                                        if (isFinished && !isFound) {
+                                            register(email, password, first_name, last_name, strdate, phonenumber);
                                         }
-
-
+                                        else if (isFinished && isFound) {
+                                            loader.dismissloader();
+                                            Toast.makeText(signup_screen.this, "The phone number is already taken.", Toast.LENGTH_SHORT).show();
+                                        }
                                     }
-
-                                    isFinished = true;
-
-                                    if (isFinished && !isFound) {
+                                    else {
                                         register(email, password, first_name, last_name, strdate, phonenumber);
-                                    }
-                                    else if (isFinished && isFound) {
-                                        loader.dismissloader();
-                                        Toast.makeText(signup_screen.this, "The phone number is already taken.", Toast.LENGTH_SHORT).show();
                                     }
                                 }
                                 catch (NullPointerException e) {
@@ -165,7 +168,7 @@ public class signup_screen extends AppCompatActivity {
                     if (task.isSuccessful()) {
 
                         String userid = firebaseAuth.getCurrentUser().getUid();
-                        users info = new users(userid, first_name, last_name, generatecode(), email, password, strdate, 0, 0, "null", phonenumber);
+                        users info = new users(userid, first_name, last_name, generatecode(), email, password, strdate, 0, 0, "null", phonenumber, false);
                         FirebaseDatabase.getInstance().getReference("users")
                                 .child(userid)
                                 .setValue(info).addOnCompleteListener(new OnCompleteListener<Void>() {
