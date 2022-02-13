@@ -22,7 +22,6 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.arsy.maps_library.MapRipple;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
@@ -94,16 +93,14 @@ public class home extends AppCompatActivity implements OnMapReadyCallback, Navig
         setContentView(R.layout.activity_home);
 
         drawerLayout = findViewById(R.id.drawerlayout);
+        drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
         toolbar = findViewById(R.id.home_toolbar);
         setSupportActionBar(toolbar);
         navigationView = findViewById(R.id.nev_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        actionBarDrawerToggle = new ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.app_name,R.string.app_name);
-        drawerLayout.addDrawerListener(actionBarDrawerToggle);
-        actionBarDrawerToggle.syncState();
-
         loader = new ProgressbarLoader(home.this);
+        loader.showloader();
 
         databaseReference = FirebaseDatabase.getInstance().getReference("users");
         firebaseAuth = FirebaseAuth.getInstance();
@@ -126,7 +123,6 @@ public class home extends AppCompatActivity implements OnMapReadyCallback, Navig
     }
 
     private void dynamicheaderlistener() {
-
         View header = navigationView.getHeaderView(0);
 
         header_name = header.findViewById(R.id.header_name_text);
@@ -153,6 +149,12 @@ public class home extends AppCompatActivity implements OnMapReadyCallback, Navig
                 }
 
                 header_emergency_status.setText(current_emergency ? "Enabled" : "Disabled");
+
+                actionBarDrawerToggle = new ActionBarDrawerToggle(home.this,drawerLayout,toolbar,R.string.app_name,R.string.app_name);
+                drawerLayout.addDrawerListener(actionBarDrawerToggle);
+                actionBarDrawerToggle.syncState();
+                drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED);
+                loader.dismissloader();
             }
 
             @Override
@@ -309,24 +311,6 @@ public class home extends AppCompatActivity implements OnMapReadyCallback, Navig
     }
 
     public void getCircles() {
-//        circleReference.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-//            @Override
-//            public void onComplete(@NonNull Task<DataSnapshot> task) {
-//                if (!task.isSuccessful()) {
-//                    Log.e("circlereference", "Error getting data", task.getException());
-//                }
-//                else {
-//                    DataSnapshot snapshot = task.getResult();
-//                    if (snapshot.exists()) {
-//                        for (DataSnapshot dss : snapshot.getChildren()) {
-//                            String person = dss.child("circlememberid").getValue(String.class);
-//                            circles.add(person);
-//                        }
-//                    }
-//                }
-//            }
-//        });
-
         circleReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -435,7 +419,7 @@ public class home extends AppCompatActivity implements OnMapReadyCallback, Navig
         switch (menuItem.getItemId()){
             case R.id.nev_home:
                 startActivity(new Intent(home.this, home.class));
-                finish();
+//                finish();
                 break;
             case R.id.nev_profile:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,

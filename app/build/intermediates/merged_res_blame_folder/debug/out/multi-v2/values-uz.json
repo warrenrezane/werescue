@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lemonade/Desktop/Desktop Files/werescue/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml",
+            "outputFile": "/Users/lemonade/Desktop/werescue/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml",
             "map": [
                 {
                     "source": "/Users/lemonade/.gradle/caches/transforms-3/6061e79e0f33983a74f39da821534e50/transformed/material-1.3.0/res/values-uz/values-uz.xml",

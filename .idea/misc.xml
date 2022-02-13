@@ -4,17 +4,28 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_icon_foreground.xml" value="0.153125" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.15052083333333333" />
         <entry key="app/src/main/res/drawable/cardbackground.xml" value="0.28072916666666664" />
         <entry key="app/src/main/res/drawable/ic_email.xml" value="0.28072916666666664" />
         <entry key="app/src/main/res/drawable/ic_emergency.xml" value="0.28072916666666664" />
         <entry key="app/src/main/res/drawable/ic_eye.xml" value="0.153125" />
         <entry key="app/src/main/res/drawable/ic_fab_phonenumber.xml" value="0.28072916666666664" />
         <entry key="app/src/main/res/drawable/ic_home_icon.xml" value="0.153125" />
+        <entry key="app/src/main/res/drawable/ic_invitation.xml" value="0.15052083333333333" />
+        <entry key="app/src/main/res/drawable/ic_join_circle.xml" value="0.15052083333333333" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.15052083333333333" />
         <entry key="app/src/main/res/drawable/ic_lock_black_24dp.xml" value="0.28072916666666664" />
+        <entry key="app/src/main/res/drawable/ic_log_out.xml" value="0.15052083333333333" />
+        <entry key="app/src/main/res/drawable/ic_my_circle.xml" value="0.15052083333333333" />
+        <entry key="app/src/main/res/drawable/ic_person_black.xml" value="0.15052083333333333" />
         <entry key="app/src/main/res/drawable/ic_phonenumber.xml" value="0.28072916666666664" />
+        <entry key="app/src/main/res/drawable/ic_toggle_emergency.xml" value="0.15052083333333333" />
         <entry key="app/src/main/res/drawable/ic_user.xml" value="0.153125" />
         <entry key="app/src/main/res/drawable/ic_your_position.xml" value="0.28072916666666664" />
+        <entry key="app/src/main/res/drawable/invite_code_background.xml" value="0.15052083333333333" />
+        <entry key="app/src/main/res/drawable/loginbtnbackground.xml" value="0.15052083333333333" />
         <entry key="app/src/main/res/drawable/progress_background.xml" value="0.28072916666666664" />
+        <entry key="app/src/main/res/drawable/share_button_background.xml" value="0.15052083333333333" />
         <entry key="app/src/main/res/layout/activity_circle_members_map.xml" value="0.22554347826086957" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.13697916666666668" />
         <entry key="app/src/main/res/layout/activity_login_screen.xml" value="0.165" />
